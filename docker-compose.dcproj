@@ -5,7 +5,7 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>875720e9-9f03-4969-9af3-10d2cb031bb1</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>{Scheme}://192.168.99.100:5010</DockerServiceUrl>
+    <DockerServiceUrl>http://192.168.99.100:5010</DockerServiceUrl>
     <DockerServiceName>websitetest</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
