@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  websitetest:
+    image: ${DOCKER_REGISTRY}websitetest
+    build:
+      context: .
+      dockerfile: WebSiteTest/Dockerfile
+    ports:
+      - "5010:80"
+  testwebservice:
+    image: ${DOCKER_REGISTRY}testwebservice
+    build:
+      context: .
+      dockerfile: TestWebService/Dockerfile
+    ports:
+      - "5020:80"
